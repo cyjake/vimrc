@@ -23,6 +23,11 @@ set noexpandtab
 
 set guioptions-=T	"hide toolbar
 
+" set textwidth=80
+" set formatoptions+=mM
+
+cmap w!! %!sudo tee > /dev/null %
+
 " Vundle
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
