@@ -6,8 +6,6 @@ filetype off
 
 filetype plugin indent on
 
-colorscheme slate
-
 " set guifont=Envy\ Code\ R\ 10
 set backspace=indent,eol,start
 
@@ -40,6 +38,9 @@ Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree.git'
 map <F8> :NERDTreeToggle ~/source<CR>
 
+" NERDCommenter
+Bundle 'scrooloose/nerdcommenter'
+
 " Syntastic
 Bundle 'scrooloose/syntastic.git'
 
@@ -49,3 +50,9 @@ Bundle 'walm/jshint.vim.git'
 " Rails
 Bundle 'rails.vim'
 
+Bundle 'altercation/vim-colors-solarized.git'
+
+set background=light
+colorscheme solarized
+
+Bundle 'cakebaker/scss-syntax.vim'
