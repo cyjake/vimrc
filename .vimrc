@@ -48,7 +48,7 @@ Bundle 'walm/jshint.vim.git'
 " Rails
 Bundle 'rails.vim'
 
-Bundle 'nginx'
+Bundle 'nginx.vim'
 
 Bundle 'altercation/vim-colors-solarized.git'
 
