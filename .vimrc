@@ -19,8 +19,6 @@ set softtabstop=4
 set shiftwidth=4
 set noexpandtab
 
-set guioptions-=T	"hide toolbar
-
 " set textwidth=80
 " set formatoptions+=mM
 
@@ -50,9 +48,10 @@ Bundle 'walm/jshint.vim.git'
 " Rails
 Bundle 'rails.vim'
 
+Bundle 'nginx'
+
 Bundle 'altercation/vim-colors-solarized.git'
 
-set background=light
-colorscheme solarized
-
 Bundle 'cakebaker/scss-syntax.vim'
+
+Bundle 'kchmck/vim-coffee-script'
