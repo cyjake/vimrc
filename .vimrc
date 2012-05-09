@@ -1,6 +1,7 @@
 set nocompatible
 set number
 
+colorscheme desert
 syntax on
 filetype off
 
@@ -17,7 +18,7 @@ set fileencoding=utf-8
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set noexpandtab
+set expandtab
 
 " set textwidth=80
 " set formatoptions+=mM
