@@ -13,3 +13,14 @@ I'd rather type `:Rcontroller` instead.
 
 My vim conf uses vundle for quick vim plugins installation.
 I use solarized as my color theme, with light background.
+
+## Install
+
+```bash
+$ git clone git@github.com:dotnil/vimrc.git ~/source/vimrc
+$ ln -s ~/source/vimrc/.vimrc ~/.vimrc
+$ ln -s ~/source/vimrc/.vim ~/.vim
+$ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+```
+
+TODO: Should be refactored in bash script and git submodule. 
