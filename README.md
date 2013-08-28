@@ -16,11 +16,9 @@ I use solarized as my color theme, with light background.
 
 ## Install
 
+Requires ruby [rake](http://rake.rubyforge.org/).
+
 ```bash
-$ git clone git@github.com:dotnil/vimrc.git ~/source/vimrc
-$ ln -s ~/source/vimrc/.vimrc ~/.vimrc
-$ ln -s ~/source/vimrc/.vim ~/.vim
-$ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+$ rake install      # or just rake
 ```
 
-TODO: Should be refactored in bash script and git submodule. 
